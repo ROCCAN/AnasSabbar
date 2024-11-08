@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Portfolio | Anas Sabbar</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 2.5rem;
+            background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(45deg, #2c3e50, #3498db);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 1rem;
+        }
+        .header-subtitle {
+            color: #666;
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .section {
+            transition: transform 0.2s ease;
+            padding: 1.5rem;
+            border-radius: 12px;
+            background: white;
+            margin-top: 2rem;
+            border: 1px solid #eaeaea;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            border-bottom: none;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .article-card {
+            padding: 1rem;
+            border-radius: 8px;
+            transition: all 0.2s ease;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .article-card:hover {
+            background-color: #f8f9fa;
+        }
+        .article-info {
+            flex: 1;
+        }
+        .article-link {
+            font-size: 1.1rem;
+            color: #2c3e50;
+            font-weight: 500;
+            display: block;
+            margin-bottom: 0.3rem;
+        }
+        .article-meta {
+            font-size: 0.9rem;
+            color: #666;
+        }
+        .language-tag {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            background-color: #e3f2fd;
+            color: #1565c0;
+            font-size: 0.8rem;
+            margin-left: 0.5rem;
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>Anas Sabbar</h1>
+            <p class="header-subtitle">A collection of my published works across various platforms and topics</p>
+        </header>
+
+        <div class="section">
+            <h2>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M11 4H4a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7"></path>
+                    <path d="M18.5 2.5a2.121 2.121 0 0 1 3 3L12 15l-4 1 1-4 9.5-9.5z"></path>
+                </svg>
+                Blog Articles
+            </h2>
+            <ul>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://www.resecurity.com/blog/article/cybersecurity-predictions-2023" target="_blank" class="article-link">Cybersecurity Predictions 2023</a>
+                        <div class="article-meta">Published on Resecurity Blog • Security Analysis</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://www.shells.com/l/en-US/blog/What-is-DaaS-The-definition-of-desktop-as-a-service-terminology-and-benefits" target="_blank" class="article-link">What is DaaS? The Definition of Desktop as a Service, Terminology, and Benefits</a>
+                        <div class="article-meta">Published on Shells Blog • Technology</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://levelup.gitconnected.com/five-common-myths-about-daas-bdc30c38b39e" target="_blank" class="article-link">Five Common Myths About DaaS</a>
+                        <div class="article-meta">Published on LevelUp Blog • Technology</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://www.shells.com/l/en-US/blog/Emergency-Broadband-Benefit-Bridging-the-Digital-Divide-The-New-FCC-%22Emergency-Broadband-Benefit%22-Program" target="_blank" class="article-link">Emergency Broadband Benefit: Bridging the Digital Divide - The New FCC 'Emergency Broadband Benefit' Program</a>
+                        <div class="article-meta">Published on Shells Blog • Technology</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://artisanat-shop.com/blogs/blog/brillance-et-nettoyage-guide-dentretien-de-la-theiere-marocaine" target="_blank" class="article-link">Brillance et Nettoyage : Guide d’entretien de la théière marocaine (French)</a>
+                        <div class="article-meta">Published on Artisanat Shop Blog • Lifestyle</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://www.linkedin.com/pulse/solution-e-waste-recycling-you-alexander-lee/?trackingId=3EmPTWbnVVkEdvTXEpKEYA%3D%3D" target="_blank" class="article-link">The Solution to E-Waste? Recycling and You</a>
+                        <div class="article-meta">Published on LinkedIn Pulse • Technology</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://agrimenara.com/public/blog" target="_blank" class="article-link">Agrimenara Blog (Series of Articles in French Language)</a>
+                        <div class="article-meta">Published on Agrimenara Blog • Lifestyle</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://voicebox.site/article/plague-beneath-waves-noise-pollution" target="_blank" class="article-link">A Plague Beneath the Waves: The Threat of Noise Pollution to Marine Life</a>
+                        <div class="article-meta">Published on VoiceBox Blog • Environment</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Magazine and News Articles</h2>
+            <ul>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://www.techradar.com/news/what-is-daas-everything-you-need-to-know-about-desktop-as-a-service" target="_blank" class="article-link">What is DaaS? Everything You Need to Know About Desktop as a Service</a>
+                        <div class="article-meta">Published on TechRadar • Technology</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://www.helpnetsecurity.com/2023/02/22/resecurity-warns-about-cyber-attacks-on-data-center-service-providers/" target="_blank" class="article-link">Resecurity Warns About Cyber Attacks on Data Center Service Providers</a>
+                        <div class="article-meta">Published on Help Net Security • Security</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Print and Sponsored Articles</h2>
+            <ul>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://docs.google.com/document/d/1g3AjgrhR82xjQykr7nkAgU7eV-AWhQBNJQKRVJutRRE/edit?usp=sharing" target="_blank" class="article-link">Management de projet: Un premier congrès a vu le jour (L'Économiste Print Article, French)</a>
+                        <div class="article-meta">Published on L'Économiste • Economy</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://lematin.ma/express/2017/la-mpma-organise-son-1er-congres-annuel-a-casablanca/267327.html" target="_blank" class="article-link">La MPMA organise son 1er congrès annuel à Casablanca (Le Matin Advertorial, French)</a>
+                        <div class="article-meta">Published on Le Matin • Lifestyle</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Technical Documents</h2>
+            <ul>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://drive.google.com/file/d/1hgBKcTmXqx0kPGOJphs9o8F5ZRD4qpwt/view?usp=sharing" target="_blank" class="article-link">Technical Guide Document</a>
+                        <div class="article-meta">Published on Resecurity Blog • Technology</div>
+                    </div>
+                </li>
+                <li class="article-card">
+                    <div class="article-info">
+                        <a href="https://www.resecurity.com/blog/article/cyfi-an-essential-paradigm-for-financial-crimes-compliance-and-risk-management-in-the-21st-century" target="_blank" class="article-link">CYFI: An Essential Paradigm for Financial Crimes Compliance and Risk Management in the 21st Century (Whitepaper)</a>
+                        <div class="article-meta">Published on Resecurity Blog • Security</div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <footer class="footer">
+            <p>&copy; 2024 Anas Sabbar • Portfolio of Published Articles</p>
+            <p>Last updated: April 2024</p>
+        </footer>
+    </div>
+</body>
+</html>
